@@ -1,0 +1,10 @@
+.box {
+  background-color: #79797f;
+  width: 150px;
+  height: 150px;
+  position: relative;
+  transition: 1s ease-in-out; /* what does this left do? I cannot see any difference if I take it out */
+}
+.box:hover {
+    left: 50px;
+}
